@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "sprint.jpa.properties.hibernate.ddl.auto",
+    "type": "java.lang.String",
+    "description": "A description for 'sprint.jpa.properties.hibernate.ddl.auto'"
+  },
+  {
+    "name": "sprint.datasource.url",
+    "type": "java.lang.String",
+    "description": "A description for 'sprint.datasource.url'"
+  }
+]}
