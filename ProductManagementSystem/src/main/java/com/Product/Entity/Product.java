@@ -1,11 +1,19 @@
 package com.Product.Entity;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity
 public class Product {
+	@Id
+	@GeneratedValue(strategy =GenerationType.AUTO)
 	private Integer id;
 	private String productName;
 	private String productBrand;
 	private String productCategory;
-	private String productPrice;
+	private Integer productPrice;
 	
 	public Integer getId() {
 		return id;
@@ -31,13 +39,13 @@ public class Product {
 	public void setProductCategory(String productCategory) {
 		this.productCategory = productCategory;
 	}
-	public String getProductPrice() {
+	public Integer getProductPrice() {
 		return productPrice;
 	}
-	public void setProductPrice(String productPrice) {
+	public void setProductPrice(Integer productPrice) {
 		this.productPrice = productPrice;
 	}
-	public Product(Integer id, String productName, String productBrand, String productCategory, String productPrice) {
+	public Product(Integer id, String productName, String productBrand, String productCategory, Integer productPrice) {
 		super();
 		this.id = id;
 		this.productName = productName;
