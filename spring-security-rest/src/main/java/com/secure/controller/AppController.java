@@ -31,12 +31,12 @@ public class AppController {
 		return newEmployee;
 		
 	}
-	@PutMapping("/put")
+	@PutMapping("/put/{name}")
 	 String putEmployee(@RequestBody  Employee newEmployee,@PathVariable String name){
-		return newEmployee.toString()+"Updated with name"+name;
+		return newEmployee.toString()+"Updated with name "+name;
 		
 	}
-	@DeleteMapping("/delete")
+	@DeleteMapping("/delete/{name}")
 	 String deleteEmployee( @PathVariable String name){
 		return name;
 		
