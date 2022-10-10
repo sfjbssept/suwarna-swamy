@@ -1,11 +1,11 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-userform',
+  templateUrl: './userform.component.html',
+  styleUrls: ['./userform.component.css']
 })
-export class AppComponent {
+export class UserformComponent implements OnInit {
   username :String= "";
   salary:number=0;
   title = 'Hello World';
@@ -15,9 +15,10 @@ export class AppComponent {
   save(){
     console.log("The user name is "+
     this.username  + " who's salary is "+ this.salary);
-  
   }
+  constructor() { }
+
+  ngOnInit(): void {
+  }
+
 }
-
-
-
