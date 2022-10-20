@@ -14,7 +14,7 @@ export class AppComponent {
 
   save(){
     console.log("The user name is "+
-    this.username  + " who's salary is "+ this.age);
+    this.username  + " who's age is "+ this.age);
   
   }
 }

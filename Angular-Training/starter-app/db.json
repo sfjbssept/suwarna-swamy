@@ -1,0 +1,74 @@
+{
+  "students": [
+    {
+      "firstname": "Ram",
+      "lastname": "Kumar",
+      "class": 12,
+      "age": 16,
+      "id": 1
+    },
+    {
+      "firstname": "Sonu",
+      "lastname": "S",
+      "age": 31,
+      "class": 12,
+      "subject": " PCMB",
+      "gender": "Female",
+      "id": 2
+    },
+    {
+      "firstname": " Suwarna",
+      "lastname": " Swamy",
+      "age": 16,
+      "class": 11,
+      "subject": " PCMB",
+      "gender": "Female",
+      "id": 3
+    },
+    {
+      "firstname": "Sonu",
+      "lastname": "S",
+      "age": 0,
+      "class": 0,
+      "subject": " PCMB",
+      "gender": "Female",
+      "id": 4
+    },
+    {
+      "firstname": "Sonu",
+      "lastname": "S",
+      "age": 0,
+      "class": 0,
+      "subject": " PCMB",
+      "gender": "Female",
+      "id": 5
+    },
+    {
+      "firstname": "Sonu",
+      "lastname": "S",
+      "age": 0,
+      "class": 0,
+      "subject": " PCMB",
+      "gender": "Female",
+      "id": 6
+    },
+    {
+      "firstname": " ",
+      "lastname": " ",
+      "age": 0,
+      "class": 0,
+      "subject": " ",
+      "gender": " ",
+      "id": 7
+    },
+    {
+      "firstname": "Suwarna",
+      "lastname": "Swamy",
+      "age": 0,
+      "class": 0,
+      "subject": " ",
+      "gender": " ",
+      "id": 8
+    }
+  ]
+}
