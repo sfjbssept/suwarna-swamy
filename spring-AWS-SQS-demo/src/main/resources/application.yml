@@ -1,0 +1,9 @@
+cloud: 
+  aws: 
+   region: 
+      static: us-east-1 
+      auto: false 
+   credentials: 
+      access-key: AKIA4MFLODBGBTZO2ZXW
+   end-point: 
+       uri: https://sqs.us-east-1.amazonaws.com/850763061324/suwarna-queue
