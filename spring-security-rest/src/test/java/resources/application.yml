@@ -1,10 +1,10 @@
 security:
   basic: 
     enabled: true
-  ignored: /**
+    ignored: false
 
-management:
-  security:
+  management:
+    security:
     enabled: true
     
 

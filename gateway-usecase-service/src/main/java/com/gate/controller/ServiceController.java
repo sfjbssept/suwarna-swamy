@@ -13,16 +13,16 @@ import org.springframework.web.client.RestTemplate;
 public class ServiceController {
 	@Autowired
 	RestTemplate restTemplate;
-	@RequestMapping(value="/getSchoolDetails/{schoolname}",method=RequestMethod.GET)
-	public String getStudents(@PathVariable String schoolname) {
-		System.out.println("getting school details for:"+schoolname);
-		String response=restTemplate.exchange("http://school-service/schooldetail/{schoolname}",
+	@RequestMapping(value="/getFlightDetailsDetails/{FlightId}",method=RequestMethod.GET)
+	public String getFlights(@PathVariable String flightId) {
+		System.out.println("getting flight details for:"+flightId);
+		String response=restTemplate.exchange("http://admin-service/flightdetail/{flightId}",
 				HttpMethod.GET,null,new ParameterizedTypeReference<String>() {
 			
-		},schoolname).getBody();
+		},flightId).getBody();
 		
 		System.out.println("Response Received as"+response);
-		return "schoolname"+schoolname+"\n Student details:" +response;
+		return "Flight"+flightId+"\n flight details:" +response;
 		
 		
 	}
